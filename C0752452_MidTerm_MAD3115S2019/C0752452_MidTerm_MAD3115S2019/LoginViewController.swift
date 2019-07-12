@@ -12,6 +12,7 @@ class LoginViewController: UIViewController {
 
     @IBOutlet weak var textEmailId: UITextField!
     @IBOutlet weak var textPassword: UITextField!
+    @IBOutlet weak var switchRememberMe: UISwitch!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -33,6 +34,46 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func btnLogin(_ sender: UIBarButtonItem) {
+        if self.textEmailId.text == "admin@gmail.com" && self.textPassword.text == "12345"
+        {
+            let userDefault = UserDefaults.standard
+            let sb = UIStoryboard(name: "Main", bundle: nil)
+            let  userVC = sb.instantiateViewController(withIdentifier: "BillVC") as! BillListTableTableViewController
+            //             userVC.eMailId = txtTextField.text
+            self.present(userVC, animated: true, completion: nil)
+            if switchRememberMe.isOn
+            {
+                
+                userDefault.setValue(textEmailId.text, forKey: "userEmail")
+                userDefault.set(textPassword.text, forKey: "userPassword")
+            }
+            else
+            {
+                userDefault.removeObject(forKey: "userEmail")
+                userDefault.removeObject(forKey: "userPassword")
+            }
+        }
+        else
+        {
+            let alert = UIAlertController(title: "Error", message: "Try again, User Email / Password Invalid", preferredStyle: .alert)
+            
+            let okButton = UIAlertAction(title: "Ok", style: .default, handler: nil)
+            
+            alert.addAction(okButton)
+            
+            self.present(alert, animated: true)
+        }
+      /*  @IBAction func unWindLogoutFromAnyScreen(storyboardSegue: UIStoryboardSegue)
+        {
+            print("Logout")
+            let s = storyboardSegue.source as! WelcomeViewController
+            print(s.lblWelcome.text!)
+            
+            txtPassword.text = ""
+            txtEmailID.text = "" */
+       
+
+        
     }
     
     /*
