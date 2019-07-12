@@ -40,4 +40,11 @@ var TotalAmountToPay: Float // computed variable
         self.lastName = String()
         self.email = String()
     }
+    init(customerId: String, firstName: String, lastName: String, email: String)
+    {
+        self.customerId = customerId
+        self.firstName = firstName
+        self.lastName = lastName
+        self.email = email
+    }
 }
