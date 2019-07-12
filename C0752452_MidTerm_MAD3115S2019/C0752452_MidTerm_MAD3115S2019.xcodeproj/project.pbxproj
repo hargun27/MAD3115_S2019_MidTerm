@@ -25,6 +25,7 @@
 		0AECD39B22D91FEB004E4463 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD39A22D91FEB004E4463 /* Internet.swift */; };
 		0AECD39D22D91FF8004E4463 /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD39C22D91FF8004E4463 /* Mobile.swift */; };
 		0AECD39F22D921BD004E4463 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD39E22D921BD004E4463 /* Users.swift */; };
+		0AECD3A122D9248B004E4463 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD3A022D9248B004E4463 /* data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		0AECD39A22D91FEB004E4463 /* Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
 		0AECD39C22D91FF8004E4463 /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
 		0AECD39E22D921BD004E4463 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		0AECD3A022D9248B004E4463 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				0AECD38422D80F45004E4463 /* BillListTableTableViewController.swift */,
 				0AECD38A22D814D2004E4463 /* UserInfo.plist */,
 				0AECD38E22D91E1D004E4463 /* CustomerTableViewCell.swift */,
+				0AECD3A022D9248B004E4463 /* data.swift */,
 			);
 			path = C0752452_MidTerm_MAD3115S2019;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				0AECD38522D80F45004E4463 /* BillListTableTableViewController.swift in Sources */,
 				0AECD39D22D91FF8004E4463 /* Mobile.swift in Sources */,
 				0AECD39522D91FA9004E4463 /* Customer.swift in Sources */,
+				0AECD3A122D9248B004E4463 /* data.swift in Sources */,
 				0AECD39722D91FD0004E4463 /* Hydro.swift in Sources */,
 				0AECD39B22D91FEB004E4463 /* Internet.swift in Sources */,
 				0AECD39222D91EF7004E4463 /* extentions.swift in Sources */,
