@@ -15,8 +15,6 @@
 		0ADF40E422D7F71F0017AFED /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADF40E322D7F71E0017AFED /* SplashViewController.swift */; };
 		0ADF40E822D8023C0017AFED /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADF40E722D8023C0017AFED /* LoginViewController.swift */; };
 		0AECD38522D80F45004E4463 /* BillListTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD38422D80F45004E4463 /* BillListTableTableViewController.swift */; };
-		0AECD38B22D814D2004E4463 /* UserInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AECD38A22D814D2004E4463 /* UserInfo.plist */; };
-		0AECD38D22D8E0CF004E4463 /* login_png_812083.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AECD38C22D8E0CF004E4463 /* login_png_812083.jpg.png */; };
 		0AECD38F22D91E1D004E4463 /* CustomerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD38E22D91E1D004E4463 /* CustomerTableViewCell.swift */; };
 		0AECD39222D91EF7004E4463 /* extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD39122D91EF7004E4463 /* extentions.swift */; };
 		0AECD39522D91FA9004E4463 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD39422D91FA9004E4463 /* Customer.swift */; };
@@ -26,6 +24,7 @@
 		0AECD39D22D91FF8004E4463 /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD39C22D91FF8004E4463 /* Mobile.swift */; };
 		0AECD39F22D921BD004E4463 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD39E22D921BD004E4463 /* Users.swift */; };
 		0AECD3A122D9248B004E4463 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD3A022D9248B004E4463 /* data.swift */; };
+		0AECD3A322D9301D004E4463 /* UserInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AECD3A222D9301D004E4463 /* UserInfo.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,8 +38,6 @@
 		0ADF40E322D7F71E0017AFED /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		0ADF40E722D8023C0017AFED /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0AECD38422D80F45004E4463 /* BillListTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillListTableTableViewController.swift; sourceTree = "<group>"; };
-		0AECD38A22D814D2004E4463 /* UserInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = UserInfo.plist; path = ../UserInfo.plist; sourceTree = "<group>"; };
-		0AECD38C22D8E0CF004E4463 /* login_png_812083.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_png_812083.jpg.png; sourceTree = "<group>"; };
 		0AECD38E22D91E1D004E4463 /* CustomerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerTableViewCell.swift; sourceTree = "<group>"; };
 		0AECD39122D91EF7004E4463 /* extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extentions.swift; sourceTree = "<group>"; };
 		0AECD39422D91FA9004E4463 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
@@ -50,6 +47,7 @@
 		0AECD39C22D91FF8004E4463 /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
 		0AECD39E22D921BD004E4463 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		0AECD3A022D9248B004E4463 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		0AECD3A222D9301D004E4463 /* UserInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = UserInfo.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,15 +86,14 @@
 				0ADF40D322D7F5D50017AFED /* ViewController.swift */,
 				0ADF40D522D7F5D50017AFED /* Main.storyboard */,
 				0ADF40D822D7F5D60017AFED /* Assets.xcassets */,
-				0AECD38C22D8E0CF004E4463 /* login_png_812083.jpg.png */,
 				0ADF40DA22D7F5D60017AFED /* LaunchScreen.storyboard */,
 				0ADF40DD22D7F5D60017AFED /* Info.plist */,
 				0ADF40E322D7F71E0017AFED /* SplashViewController.swift */,
 				0ADF40E722D8023C0017AFED /* LoginViewController.swift */,
 				0AECD38422D80F45004E4463 /* BillListTableTableViewController.swift */,
-				0AECD38A22D814D2004E4463 /* UserInfo.plist */,
 				0AECD38E22D91E1D004E4463 /* CustomerTableViewCell.swift */,
 				0AECD3A022D9248B004E4463 /* data.swift */,
+				0AECD3A222D9301D004E4463 /* UserInfo.plist */,
 			);
 			path = C0752452_MidTerm_MAD3115S2019;
 			sourceTree = "<group>";
@@ -182,8 +179,7 @@
 			files = (
 				0ADF40DC22D7F5D60017AFED /* LaunchScreen.storyboard in Resources */,
 				0ADF40D922D7F5D60017AFED /* Assets.xcassets in Resources */,
-				0AECD38D22D8E0CF004E4463 /* login_png_812083.jpg.png in Resources */,
-				0AECD38B22D814D2004E4463 /* UserInfo.plist in Resources */,
+				0AECD3A322D9301D004E4463 /* UserInfo.plist in Resources */,
 				0ADF40D722D7F5D50017AFED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,7 +349,6 @@
 		0ADF40E122D7F5D60017AFED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SRC5YG3UWS;
 				INFOPLIST_FILE = C0752452_MidTerm_MAD3115S2019/Info.plist;
@@ -371,7 +366,6 @@
 		0ADF40E222D7F5D60017AFED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SRC5YG3UWS;
 				INFOPLIST_FILE = C0752452_MidTerm_MAD3115S2019/Info.plist;

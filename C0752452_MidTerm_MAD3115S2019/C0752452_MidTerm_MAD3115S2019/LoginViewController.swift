@@ -17,7 +17,7 @@ class LoginViewController: UIViewController {
     let UserDefault = UserDefaults.standard
     override func viewDidLoad() {
         switchRememberMe.isOn = false
-        getRememberMeValues()
+        getRememberMe()
        
         
         super.viewDidLoad()
@@ -90,21 +90,7 @@ class LoginViewController: UIViewController {
         }
         
     }
-    private func getRememberMeValues()
-    {
-        let userDefault = UserDefaults.standard
-        
-        if let email = userDefault.string(forKey: "userEmail")
-        {
-            textEmailId.text = email
-            
-            if let password = userDefault.string(forKey: "userPassword")
-            {
-                textPassword.text = password
-                switchRememberMe.setOn(true, animated: false)
-            }
-            }
-        }
+   
     func checkEmailPassword(email : String , password : String) -> Bool{
         
         for everyCustomer in UserDict{
@@ -142,7 +128,7 @@ class LoginViewController: UIViewController {
     
     
     func showAlerBox(msg : String)  {
-        let alertController = UIAlertController(title: "CustomerBillApp", message:
+        let alertController = UIAlertController(title: "CustomerBill", message:
             msg, preferredStyle: .alert)
         alertController.addAction(UIAlertAction(title: "Dismiss", style: .default))
         
