@@ -19,14 +19,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Student ID : C0752452" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fq8-hA-8Sr">
-                                <rect key="frame" x="20" y="212" width="374" height="43"/>
+                                <rect key="frame" x="20" y="283" width="374" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="customers.png" translatesAutoresizingMaskIntoConstraints="NO" id="nWk-KB-J22">
+                                <rect key="frame" x="87" y="66" width="240" height="183"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hargun" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iWn-RZ-dha">
-                                <rect key="frame" x="20" y="322" width="374" height="44"/>
+                                <rect key="frame" x="20" y="414" width="374" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -42,7 +46,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="236" y="121"/>
+            <point key="canvasLocation" x="234.78260869565219" y="120.53571428571428"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="kh2-4q-7sF">
@@ -287,4 +291,7 @@
             <point key="canvasLocation" x="2489.8550724637685" y="120.53571428571428"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="customers.png" width="237.36264038085938" height="237.36264038085938"/>
+    </resources>
 </document>

@@ -26,6 +26,8 @@
 		0AECD3A122D9248B004E4463 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD3A022D9248B004E4463 /* data.swift */; };
 		0AECD3A322D9301D004E4463 /* UserInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AECD3A222D9301D004E4463 /* UserInfo.plist */; };
 		0AECD3A522D94114004E4463 /* ShowDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD3A422D94114004E4463 /* ShowDetailsViewController.swift */; };
+		0AECD3A722D95137004E4463 /* customers.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AECD3A622D95137004E4463 /* customers.png */; };
+		0AECD3A922D9515C004E4463 /* customers.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AECD3A822D9515C004E4463 /* customers.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		0AECD3A022D9248B004E4463 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 		0AECD3A222D9301D004E4463 /* UserInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = UserInfo.plist; sourceTree = "<group>"; };
 		0AECD3A422D94114004E4463 /* ShowDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailsViewController.swift; sourceTree = "<group>"; };
+		0AECD3A622D95137004E4463 /* customers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = customers.png; sourceTree = "<group>"; };
+		0AECD3A822D9515C004E4463 /* customers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = customers.png; path = ../../../../Downloads/customers.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +90,10 @@
 				0AECD39022D91ED1004E4463 /* folder */,
 				0ADF40D122D7F5D50017AFED /* AppDelegate.swift */,
 				0ADF40D322D7F5D50017AFED /* ViewController.swift */,
+				0AECD3A822D9515C004E4463 /* customers.png */,
 				0ADF40D522D7F5D50017AFED /* Main.storyboard */,
 				0ADF40D822D7F5D60017AFED /* Assets.xcassets */,
+				0AECD3A622D95137004E4463 /* customers.png */,
 				0ADF40DA22D7F5D60017AFED /* LaunchScreen.storyboard */,
 				0ADF40DD22D7F5D60017AFED /* Info.plist */,
 				0ADF40E322D7F71E0017AFED /* SplashViewController.swift */,
@@ -180,8 +186,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AECD3A722D95137004E4463 /* customers.png in Resources */,
 				0ADF40DC22D7F5D60017AFED /* LaunchScreen.storyboard in Resources */,
 				0ADF40D922D7F5D60017AFED /* Assets.xcassets in Resources */,
+				0AECD3A922D9515C004E4463 /* customers.png in Resources */,
 				0AECD3A322D9301D004E4463 /* UserInfo.plist in Resources */,
 				0ADF40D722D7F5D50017AFED /* Main.storyboard in Resources */,
 			);
