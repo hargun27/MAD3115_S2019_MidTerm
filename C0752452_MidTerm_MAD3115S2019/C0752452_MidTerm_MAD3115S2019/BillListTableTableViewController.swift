@@ -16,7 +16,7 @@ class BillListTableTableViewController: UIViewController,UITableViewDelegate,UIT
     
     @IBAction func btn_logout(_ sender: Any)
     {
-        self.performSegue(withIdentifier: "LogoutS", sender: nil)
+        self.performSegue(withIdentifier: "Logout", sender: nil)
         
 }
     override func viewDidLoad() {

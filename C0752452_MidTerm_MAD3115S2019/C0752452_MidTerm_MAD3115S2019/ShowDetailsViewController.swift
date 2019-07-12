@@ -10,6 +10,10 @@ import UIKit
 
 class ShowDetailsViewController: UIViewController {
 
+    @IBOutlet weak var lblId: UILabel!
+    @IBOutlet weak var lblName: UILabel!
+    @IBOutlet weak var lblEmail: UILabel!
+    @IBOutlet weak var lblTotalBill: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
