@@ -15,6 +15,7 @@
 		0ADF40E422D7F71F0017AFED /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADF40E322D7F71E0017AFED /* SplashViewController.swift */; };
 		0ADF40E822D8023C0017AFED /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADF40E722D8023C0017AFED /* LoginViewController.swift */; };
 		0AECD38522D80F45004E4463 /* BillListTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD38422D80F45004E4463 /* BillListTableTableViewController.swift */; };
+		0AECD38B22D814D2004E4463 /* UserInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AECD38A22D814D2004E4463 /* UserInfo.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		0ADF40E322D7F71E0017AFED /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		0ADF40E722D8023C0017AFED /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0AECD38422D80F45004E4463 /* BillListTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillListTableTableViewController.swift; sourceTree = "<group>"; };
+		0AECD38A22D814D2004E4463 /* UserInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = UserInfo.plist; path = ../UserInfo.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				0ADF40E322D7F71E0017AFED /* SplashViewController.swift */,
 				0ADF40E722D8023C0017AFED /* LoginViewController.swift */,
 				0AECD38422D80F45004E4463 /* BillListTableTableViewController.swift */,
+				0AECD38A22D814D2004E4463 /* UserInfo.plist */,
 			);
 			path = C0752452_MidTerm_MAD3115S2019;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 			files = (
 				0ADF40DC22D7F5D60017AFED /* LaunchScreen.storyboard in Resources */,
 				0ADF40D922D7F5D60017AFED /* Assets.xcassets in Resources */,
+				0AECD38B22D814D2004E4463 /* UserInfo.plist in Resources */,
 				0ADF40D722D7F5D50017AFED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

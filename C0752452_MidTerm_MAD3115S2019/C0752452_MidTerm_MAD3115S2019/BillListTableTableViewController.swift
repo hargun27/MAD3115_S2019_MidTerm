@@ -15,7 +15,10 @@ class BillListTableTableViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    
+    func readInformationUserInfo()
+    {
+        //if let bundlePath = Bundle.main.path(forResource: <#T##String?#>, ofType: <#T##String?#>)
+    }
 
     /*
     // MARK: - Navigation
