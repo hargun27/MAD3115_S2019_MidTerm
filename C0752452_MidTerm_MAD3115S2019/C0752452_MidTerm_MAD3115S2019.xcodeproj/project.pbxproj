@@ -24,6 +24,7 @@
 		0AECD39922D91FDF004E4463 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD39822D91FDF004E4463 /* Bill.swift */; };
 		0AECD39B22D91FEB004E4463 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD39A22D91FEB004E4463 /* Internet.swift */; };
 		0AECD39D22D91FF8004E4463 /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD39C22D91FF8004E4463 /* Mobile.swift */; };
+		0AECD39F22D921BD004E4463 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD39E22D921BD004E4463 /* Users.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		0AECD39822D91FDF004E4463 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
 		0AECD39A22D91FEB004E4463 /* Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
 		0AECD39C22D91FF8004E4463 /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
+		0AECD39E22D921BD004E4463 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				0AECD39822D91FDF004E4463 /* Bill.swift */,
 				0AECD39A22D91FEB004E4463 /* Internet.swift */,
 				0AECD39C22D91FF8004E4463 /* Mobile.swift */,
+				0AECD39E22D921BD004E4463 /* Users.swift */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				0AECD39B22D91FEB004E4463 /* Internet.swift in Sources */,
 				0AECD39222D91EF7004E4463 /* extentions.swift in Sources */,
 				0AECD39922D91FDF004E4463 /* Bill.swift in Sources */,
+				0AECD39F22D921BD004E4463 /* Users.swift in Sources */,
 				0ADF40D422D7F5D50017AFED /* ViewController.swift in Sources */,
 				0ADF40D222D7F5D50017AFED /* AppDelegate.swift in Sources */,
 				0AECD38F22D91E1D004E4463 /* CustomerTableViewCell.swift in Sources */,
