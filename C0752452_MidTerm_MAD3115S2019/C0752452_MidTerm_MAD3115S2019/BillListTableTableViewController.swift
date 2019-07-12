@@ -25,15 +25,18 @@ class BillListTableTableViewController: UIViewController,UITableViewDelegate,UIT
         
         
         let b1: Mobile = Mobile(Id: 1, billDate: Date(), billType: billTypes.Mobile, totalBillAmount: 70.50, mobileManufacturer: "abc", planName: "Talk + Data", mobileNumber: "+4356278766", internetUsed: 23, minuteUsed: 34)
+         let b2: Mobile = Mobile(Id: 2, billDate: Date(), billType: billTypes.Mobile, totalBillAmount: 70.50, mobileManufacturer: "abc", planName: "Talk + Data", mobileNumber: "+435627872", internetUsed: 23, minuteUsed: 34)
        
         let cust1: Customer = Customer(customerId: "1", firstName: "hargun", lastName: "marya", email: "hargun@gmail.com")
+        let cust2: Customer = Customer(customerId: "1", firstName: "ish", lastName: "kaur", email: "ish@gmail.com")
         
         cust1.billDictionary[1] = b1
+        cust2.billDictionary[2] = b2
        
         
        
         
-        customerArray = [cust1]
+        customerArray = [cust1, cust2]
         self.tbl_users.delegate = self
         self.tbl_users.dataSource = self
         // Do any additional setup after loading the view.
