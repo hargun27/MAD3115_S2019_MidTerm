@@ -44,10 +44,10 @@
             </objects>
             <point key="canvasLocation" x="236" y="121"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="kh2-4q-7sF">
             <objects>
-                <viewController id="1CU-ZH-dsX" sceneMemberID="viewController">
+                <viewController id="1CU-ZH-dsX" customClass="LoginViewController" customModule="C0752452_MidTerm_MAD3115S2019" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wTK-Co-Yar">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -73,11 +73,32 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="39l-xq-b9u">
+                                <rect key="frame" x="29" y="433" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Remember Me?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ajS-WY-CCL">
+                                <rect key="frame" x="110" y="435" width="149" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="xae-ke-AaZ"/>
                     </view>
-                    <navigationItem key="navigationItem" id="fPO-OB-RP4"/>
+                    <navigationItem key="navigationItem" id="fPO-OB-RP4">
+                        <barButtonItem key="rightBarButtonItem" title="Login" id="IVj-cA-wNS">
+                            <connections>
+                                <action selector="btnLogin:" destination="1CU-ZH-dsX" id="Tx7-D4-CeV"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="textEmailId" destination="d7A-Kh-uox" id="rMd-3d-ADu"/>
+                        <outlet property="textPassword" destination="XBu-aD-IcF" id="MLm-iq-ioR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WIC-pS-FIf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

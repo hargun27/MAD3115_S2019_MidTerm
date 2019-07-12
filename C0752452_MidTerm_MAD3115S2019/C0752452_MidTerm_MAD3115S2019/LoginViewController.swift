@@ -10,13 +10,31 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet weak var textEmailId: UITextField!
+    @IBOutlet weak var textPassword: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    private func getRememberMeValues()
+    {
+        let userDefault = UserDefaults.standard
+        
+        if let email = userDefault.string(forKey: "userEmail")
+        {
+            textEmailId.text = email
+            
+            if let password = userDefault.string(forKey: "userPassword")
+            {
+                textPassword.text = password
+            }
+        }
+    }
     
-
+    @IBAction func btnLogin(_ sender: UIBarButtonItem) {
+    }
+    
     /*
     // MARK: - Navigation
 
