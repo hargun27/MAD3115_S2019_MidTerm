@@ -25,6 +25,71 @@ class LoginViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    @IBAction func btnLoginPressed(_ sender: UIBarButtonItem)
+    {
+        self.checkLogin()
+    }
+    
+    func checkLogin()
+    {
+        if let email = textEmailId.text{
+            if !email.isEmpty{
+                
+                if email.isValidEmail(){
+                    if let password = textPassword.text{
+                        if !password.isEmpty{
+                            if password.sizeCheck(){
+                                
+                                if  checkEmailPassword(email: email, password: password) {
+                                    setRememberMe()
+                                    
+                                    let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                                    let dashboardVC = storyboard.instantiateViewController(withIdentifier: "BillVC") as! BillListTableTableViewController
+                                    
+                                    self.navigationController?.pushViewController(dashboardVC, animated: true)
+                                    
+                                    
+                                }else{
+                                    showAlerBox(msg: "You have enter wrong credentials")
+                                }
+                                
+                            }else{
+                                showAlerBox(msg: "Invalid password")
+                            }
+                            
+                        }else{
+                            showAlerBox(msg: "Please enter password")
+                        }
+                    }
+                }
+                else{
+                    showAlerBox(msg: "Please enter valid email")
+                }
+            }else{
+                showAlerBox(msg: "Please enter useremail")
+            }
+        }
+    }
+    func readCustomersPlistFile(){
+        
+        let plist = Bundle.main.path(forResource: "UserInfo", ofType: "plist")
+        
+        if let dict = NSMutableDictionary(contentsOfFile: plist!){
+            if let Customers = dict["Users"] as? [[String:Any]]
+            {
+                for customer in Customers {
+                    let id = customer["userID"] as! Int
+                    let firstName = customer["userName"] as! String
+                    
+                    let email = customer["email"] as! String
+                    let password = customer["password"] as! String
+                    
+                    self.UserDict.append(UsersStruct(userID: id, userName: firstName, email: email, password: password))
+                }
+            }
+        }
+        
+    }
     private func getRememberMeValues()
     {
         let userDefault = UserDefaults.standard
@@ -40,57 +105,59 @@ class LoginViewController: UIViewController {
             }
             }
         }
-    
+    func checkEmailPassword(email : String , password : String) -> Bool{
+        
+        for everyCustomer in UserDict{
+            if (everyCustomer.email == email && everyCustomer.password == password) {
+                return true
+            }
+        }
+        return false
+    }
+    func setRememberMe()  {
+        if switchRememberMe.isOn {
+            UserDefault.set(self.textEmailId.text, forKey: "email")
+            UserDefault.set(self.textPassword.text, forKey: "password")
+        }else{
+            UserDefault.set("", forKey: "email")
+            UserDefault.set("", forKey: "password")
+        }
     }
     
-//    @IBAction func btnLogin(_ sender: UIBarButtonItem) {
-//        if self.textEmailId.text == "admin@gmail.com" && self.textPassword.text == "12345"
-//        {
-//            let userDefault = UserDefaults.standard
-//            let sb = UIStoryboard(name: "Main", bundle: nil)
-//            let  userVC = sb.instantiateViewController(withIdentifier: "BillVC") as! BillListTableTableViewController
-//            //             userVC.eMailId = txtTextField.text
-//            self.present(userVC, animated: true, completion: nil)
-//            if switchRememberMe.isOn
-//            {
-//
-//                userDefault.setValue(textEmailId.text, forKey: "userEmail")
-//                userDefault.set(textPassword.text, forKey: "userPassword")
-//            }
-//            else
-//            {
-//                userDefault.removeObject(forKey: "userEmail")
-//                userDefault.removeObject(forKey: "userPassword")
-//            }
-//        }
-//        else
-//        {
-//            let alert = UIAlertController(title: "Error", message: "Try again, User Email / Password Invalid", preferredStyle: .alert)
-//
-//            let okButton = UIAlertAction(title: "Ok", style: .default, handler: nil)
-//
-//            alert.addAction(okButton)
-//
-//            self.present(alert, animated: true)
-//        }
-//
+    func getRememberMe()
+    {
+        let userDefault = UserDefaults.standard
+        
+        if let email = userDefault.string(forKey: "email")
+        {
+            textEmailId.text = email
+            
+            if let password = userDefault.string(forKey: "password")
+            {
+                textPassword.text = password
+                switchRememberMe.setOn(true, animated: false)
+            }
+        }
+    }
+    
+    
+    func showAlerBox(msg : String)  {
+        let alertController = UIAlertController(title: "CustomerBillApp", message:
+            msg, preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "Dismiss", style: .default))
+        
+        self.present(alertController, animated: true, completion: nil)
+    }
+    
+    @IBAction func unWindLogoutFromAnyScreen(storyboardSegue: UIStoryboardSegue)
+    {
+        _ = storyboardSegue.source as! BillListTableTableViewController
+        textPassword.text = ""
+        textEmailId.text = ""
+    }
+}
 
     
-    // MARK: - Navigation
+    
+    
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    /*  @IBAction  func unWindLogoutFromAnyScreen(storyboardSegue: UIStoryboardSegue)
-        {
-           // print("Logout")
-            let s = storyboardSegue.source as! BillListTableTableViewController
-           // print(s.lblWelcome.text!)
-            
-            textPassword.text = ""
-            textEmailId.text = ""
-            
-            
-            
-        }
- 
-
- */
