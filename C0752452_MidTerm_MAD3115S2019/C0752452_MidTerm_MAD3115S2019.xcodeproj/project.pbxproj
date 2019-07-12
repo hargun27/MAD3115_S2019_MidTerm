@@ -25,6 +25,7 @@
 		0AECD39F22D921BD004E4463 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD39E22D921BD004E4463 /* Users.swift */; };
 		0AECD3A122D9248B004E4463 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD3A022D9248B004E4463 /* data.swift */; };
 		0AECD3A322D9301D004E4463 /* UserInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AECD3A222D9301D004E4463 /* UserInfo.plist */; };
+		0AECD3A522D94114004E4463 /* ShowDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD3A422D94114004E4463 /* ShowDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		0AECD39E22D921BD004E4463 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		0AECD3A022D9248B004E4463 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 		0AECD3A222D9301D004E4463 /* UserInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = UserInfo.plist; sourceTree = "<group>"; };
+		0AECD3A422D94114004E4463 /* ShowDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				0AECD38E22D91E1D004E4463 /* CustomerTableViewCell.swift */,
 				0AECD3A022D9248B004E4463 /* data.swift */,
 				0AECD3A222D9301D004E4463 /* UserInfo.plist */,
+				0AECD3A422D94114004E4463 /* ShowDetailsViewController.swift */,
 			);
 			path = C0752452_MidTerm_MAD3115S2019;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				0ADF40D422D7F5D50017AFED /* ViewController.swift in Sources */,
 				0ADF40D222D7F5D50017AFED /* AppDelegate.swift in Sources */,
 				0AECD38F22D91E1D004E4463 /* CustomerTableViewCell.swift in Sources */,
+				0AECD3A522D94114004E4463 /* ShowDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
