@@ -16,6 +16,14 @@
 		0ADF40E822D8023C0017AFED /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADF40E722D8023C0017AFED /* LoginViewController.swift */; };
 		0AECD38522D80F45004E4463 /* BillListTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD38422D80F45004E4463 /* BillListTableTableViewController.swift */; };
 		0AECD38B22D814D2004E4463 /* UserInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AECD38A22D814D2004E4463 /* UserInfo.plist */; };
+		0AECD38D22D8E0CF004E4463 /* login_png_812083.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AECD38C22D8E0CF004E4463 /* login_png_812083.jpg.png */; };
+		0AECD38F22D91E1D004E4463 /* CustomerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD38E22D91E1D004E4463 /* CustomerTableViewCell.swift */; };
+		0AECD39222D91EF7004E4463 /* extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD39122D91EF7004E4463 /* extentions.swift */; };
+		0AECD39522D91FA9004E4463 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD39422D91FA9004E4463 /* Customer.swift */; };
+		0AECD39722D91FD0004E4463 /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD39622D91FD0004E4463 /* Hydro.swift */; };
+		0AECD39922D91FDF004E4463 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD39822D91FDF004E4463 /* Bill.swift */; };
+		0AECD39B22D91FEB004E4463 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD39A22D91FEB004E4463 /* Internet.swift */; };
+		0AECD39D22D91FF8004E4463 /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECD39C22D91FF8004E4463 /* Mobile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +38,14 @@
 		0ADF40E722D8023C0017AFED /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0AECD38422D80F45004E4463 /* BillListTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillListTableTableViewController.swift; sourceTree = "<group>"; };
 		0AECD38A22D814D2004E4463 /* UserInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = UserInfo.plist; path = ../UserInfo.plist; sourceTree = "<group>"; };
+		0AECD38C22D8E0CF004E4463 /* login_png_812083.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_png_812083.jpg.png; sourceTree = "<group>"; };
+		0AECD38E22D91E1D004E4463 /* CustomerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerTableViewCell.swift; sourceTree = "<group>"; };
+		0AECD39122D91EF7004E4463 /* extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extentions.swift; sourceTree = "<group>"; };
+		0AECD39422D91FA9004E4463 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		0AECD39622D91FD0004E4463 /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
+		0AECD39822D91FDF004E4463 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		0AECD39A22D91FEB004E4463 /* Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
+		0AECD39C22D91FF8004E4463 /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,18 +78,42 @@
 		0ADF40D022D7F5D50017AFED /* C0752452_MidTerm_MAD3115S2019 */ = {
 			isa = PBXGroup;
 			children = (
+				0AECD39322D91F86004E4463 /* classes */,
+				0AECD39022D91ED1004E4463 /* folder */,
 				0ADF40D122D7F5D50017AFED /* AppDelegate.swift */,
 				0ADF40D322D7F5D50017AFED /* ViewController.swift */,
 				0ADF40D522D7F5D50017AFED /* Main.storyboard */,
 				0ADF40D822D7F5D60017AFED /* Assets.xcassets */,
+				0AECD38C22D8E0CF004E4463 /* login_png_812083.jpg.png */,
 				0ADF40DA22D7F5D60017AFED /* LaunchScreen.storyboard */,
 				0ADF40DD22D7F5D60017AFED /* Info.plist */,
 				0ADF40E322D7F71E0017AFED /* SplashViewController.swift */,
 				0ADF40E722D8023C0017AFED /* LoginViewController.swift */,
 				0AECD38422D80F45004E4463 /* BillListTableTableViewController.swift */,
 				0AECD38A22D814D2004E4463 /* UserInfo.plist */,
+				0AECD38E22D91E1D004E4463 /* CustomerTableViewCell.swift */,
 			);
 			path = C0752452_MidTerm_MAD3115S2019;
+			sourceTree = "<group>";
+		};
+		0AECD39022D91ED1004E4463 /* folder */ = {
+			isa = PBXGroup;
+			children = (
+				0AECD39122D91EF7004E4463 /* extentions.swift */,
+			);
+			path = folder;
+			sourceTree = "<group>";
+		};
+		0AECD39322D91F86004E4463 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				0AECD39422D91FA9004E4463 /* Customer.swift */,
+				0AECD39622D91FD0004E4463 /* Hydro.swift */,
+				0AECD39822D91FDF004E4463 /* Bill.swift */,
+				0AECD39A22D91FEB004E4463 /* Internet.swift */,
+				0AECD39C22D91FF8004E4463 /* Mobile.swift */,
+			);
+			path = classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +176,7 @@
 			files = (
 				0ADF40DC22D7F5D60017AFED /* LaunchScreen.storyboard in Resources */,
 				0ADF40D922D7F5D60017AFED /* Assets.xcassets in Resources */,
+				0AECD38D22D8E0CF004E4463 /* login_png_812083.jpg.png in Resources */,
 				0AECD38B22D814D2004E4463 /* UserInfo.plist in Resources */,
 				0ADF40D722D7F5D50017AFED /* Main.storyboard in Resources */,
 			);
@@ -151,8 +192,15 @@
 				0ADF40E822D8023C0017AFED /* LoginViewController.swift in Sources */,
 				0ADF40E422D7F71F0017AFED /* SplashViewController.swift in Sources */,
 				0AECD38522D80F45004E4463 /* BillListTableTableViewController.swift in Sources */,
+				0AECD39D22D91FF8004E4463 /* Mobile.swift in Sources */,
+				0AECD39522D91FA9004E4463 /* Customer.swift in Sources */,
+				0AECD39722D91FD0004E4463 /* Hydro.swift in Sources */,
+				0AECD39B22D91FEB004E4463 /* Internet.swift in Sources */,
+				0AECD39222D91EF7004E4463 /* extentions.swift in Sources */,
+				0AECD39922D91FDF004E4463 /* Bill.swift in Sources */,
 				0ADF40D422D7F5D50017AFED /* ViewController.swift in Sources */,
 				0ADF40D222D7F5D50017AFED /* AppDelegate.swift in Sources */,
+				0AECD38F22D91E1D004E4463 /* CustomerTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
